@@ -53,7 +53,7 @@ export const FileUploadArea = ({ onUploadSuccess }) => {
         <input
           ref={fileInputRef}
           type="file"
-          accept=".pdf,.png,.jpg,.jpeg"
+          accept=".pdf"
           onChange={onInputChange}
           className="hidden"
           disabled={uploading}

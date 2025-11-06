@@ -25,7 +25,7 @@ export const getFileExtension = (filename) => filename.split('.').pop().toLowerC
 
 export const isValidFileType = (file) => {
   const extension = getFileExtension(file.name);
-  const validExtensions = ['pdf', 'png', 'jpg', 'jpeg'];
+  const validExtensions = ['pdf'];
   return validExtensions.includes(extension);
 };
 
